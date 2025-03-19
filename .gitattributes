@@ -1,0 +1,8 @@
+* text eol=lf
+
+# Don't even think about messing with line endings on binaries...
+*.png binary
+*.ico binary
+
+/.yarn/releases/** binary
+/.yarn/plugins/** binary
